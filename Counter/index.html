@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"  dir="Itr">
+    <head>
+    <meta charset="UTF-8">
+    <title>increment and decrement button</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+  <h1 class="title">++/--</h1>
+  <div class="sel">
+    <span class="minus">-</span>
+    <span class="num">00</span>
+    <span class="plus">+</span>
+  </div>
+  
+  
+  <script>
+    const plus=document.querySelector(".plus"),
+     minus=document.querySelector(".minus"),
+      num=document.querySelector(".num");
+
+      let a=0;
+     
+      plus.addEventListener("click",()=>{
+      a++;
+      if(a<10){
+        a="0"+a;
+      }
+      num.innerText=a;
+      });
+
+
+      minus.addEventListener("click",()=>{
+      if(a>0){
+        a--;
+        if(a<10){
+            a="0"+a;
+        }
+        num.innerText=a;
+      }
+      });
+  </script>
+    </body>
+
+</html>

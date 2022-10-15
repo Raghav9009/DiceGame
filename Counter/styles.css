@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background: white;
+    align-items: center;
+}
+.title{
+    margin-left:600px;
+    margin-top:210px;
+    font-size:50px;
+}
+.sel{
+ margin:auto;
+ height: 120px;
+ width:380px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: black;
+ border-radius: 12px;
+ box-shadow: 0 5px 10px rgba( 0,0,0,0.2);
+
+}
+
+.sel span{
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    color:white;
+}
+
